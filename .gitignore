@@ -30,3 +30,39 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# --- Wails / Go ---
+build/bin/
+build/windows/
+frontend/dist/
+wails.exe
+wails-temp-*
+
+# --- Angular / Node ---
+node_modules/
+.angular/
+dist/
+.npm
+npm-debug.log*
+yarn-error.log*
+.editorconfig
+.vscode/
+
+# --- SQLite & Local Data ---
+# Crucial: Never commit actual business data to GitHub
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Compiled Files ---
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
